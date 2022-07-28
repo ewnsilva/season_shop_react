@@ -1,0 +1,9 @@
+.subTitle {
+    font-size: 35px;
+    color: rgb(16, 50, 129);
+    text-align: center;
+}
+
+.subTitle.subTitle--size-small{
+    width: calc(100% - 260px);
+}
