@@ -1,0 +1,14 @@
+.firstTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: arial;
+    font-size: 50px;
+    color: rgb(16, 56, 129);
+    border: 5px solid rgb(16, 56, 129);
+    border-radius: 5px;   
+}
+
+.firstTitle.firstTitle--size-small{
+    width: calc(100% - 260px);
+}
