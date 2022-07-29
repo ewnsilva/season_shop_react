@@ -1,0 +1,15 @@
+.totalValueContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    line-height: 0;
+    align-items: center;
+    width: 100%;
+    font-family: Arial;
+    color: white;
+    background-color: rgb(16, 56, 129);
+    border: 2px solid rgb(16, 56, 129);
+    border-radius: 5px;
+    padding: 5px;
+}
