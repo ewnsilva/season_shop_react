@@ -1,0 +1,12 @@
+.removeButton {
+    color: white;
+    background-color: Red;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.removeButton:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
