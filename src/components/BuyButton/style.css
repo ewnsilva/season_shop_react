@@ -1,0 +1,17 @@
+.buyButton {
+    background-color: rgb(16, 50, 129);
+    color: white;
+    transition: all 0.3s;
+    font-family: Arial;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.buyButton:hover {
+    border: 5px solid white;
+    cursor: pointer;
+}
