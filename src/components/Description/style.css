@@ -1,0 +1,18 @@
+.description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.imageProduct{
+    width: 75px;
+    border: 5px solid rgb(16, 50, 129);
+    border-radius: 5px;
+}
+
+.nameProduct{
+    margin-left: 15px;
+    font-weight: 500;
+}
