@@ -1,0 +1,38 @@
+.asideCart {
+    height: 100vh;
+    width: 230px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(16, 50, 129);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.asideCart__upperBox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    line-height: 1.2;
+    gap: 10px;
+    color: white;
+    padding: 0;
+    list-style: none;
+}
+
+.upperBox__title {
+    font-family: 'Arial';
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.asideCart__content{
+    align-items: center;
+    text-align: center;
+}
