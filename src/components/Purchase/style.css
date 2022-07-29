@@ -1,0 +1,14 @@
+.buyConfirm{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+    transition: all 0.3s; 
+}
+
+.buyConfirm:hover{
+    border: 3px solid white;
+    cursor: pointer;
+}
