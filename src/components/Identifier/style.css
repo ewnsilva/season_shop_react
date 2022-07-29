@@ -1,0 +1,6 @@
+.identifier {
+    /* width: calc(100% - 260px); */
+    font-size: 25px;
+    color: rgb(16, 50, 129);
+    text-align: center;
+}
