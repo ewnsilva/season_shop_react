@@ -1,0 +1,28 @@
+.cart {
+  font-family: Arial;
+  display: block;
+}
+
+.cart__content{
+  display: block;
+  border: 5px solid rgb(16, 56, 129);
+  border-radius: 5px;
+}
+
+.content__info{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.info__itens{
+  width: 80%;
+}
+
+.info__value{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+}
