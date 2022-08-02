@@ -11,3 +11,7 @@
 .addButton:hover{
     width: 80%;
 }
+
+.product__name{
+    color: white;
+}
