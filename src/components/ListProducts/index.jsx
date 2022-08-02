@@ -7,7 +7,7 @@ import "./style.css"
 
 
 
-const ListProducts = (props) => {
+const ListProducts = () => {
 
     const [products, setProducts] = useState([])
     const [removeLoading, setRemoveLoading] = useState(false)
@@ -26,20 +26,14 @@ const ListProducts = (props) => {
         setTimeout(
             () => {
                 fetchProducts()
-            }, 1000)
+            }, 500)
     }, [])
 
     return (
         <div className="list__products">
             {products.map(product => (
                 <Product key={product.id}
-                    name={product.name}
-                    image={product.image}
-                    price={product.price}
-                    description={product.description}
-                    department={product.department}
-                    product={product.product}
-                    listProducts={product}
+                    product={product}
                 />
             ))}
             {!removeLoading && <Loading />}
