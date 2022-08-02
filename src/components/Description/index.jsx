@@ -3,11 +3,14 @@ import "./style.css"
 
 import image from "../../assets/box.png"
 
-const Description = (props) => (
+const Description = (_) => {
+
+    return(
     <div className="description">
         <img className="imageProduct" src={image} alt=""></img>
-        <h3 className="nameProduct">Nome do Produto</h3>
+            <p>Nome do Produto</p>
     </div>
-)
+    )
+}
 
 export default Description
