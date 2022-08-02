@@ -11,14 +11,15 @@
     right: 0;
 }
 
+.asideCart__content{
+    text-align: center;
+}
+
 .asideCart__upperBox{
     display: flex;
     width: 100%;
-    align-items: center;
     flex-direction: column; 
-    justify-content: center;
     line-height: 1.2;
-    gap: 10px;
     color: white;
     padding: 0;
     list-style: none;
@@ -32,7 +33,25 @@
     justify-content: center;
 }
 
-.asideCart__content{
+.upperBox__products {
+    display: flex;
+    color: white;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    line-height: 0.1;
     align-items: center;
-    text-align: center;
+}
+
+.removeButton {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.removeButton:hover {
+    background-color: red;
+    cursor: pointer;
 }
