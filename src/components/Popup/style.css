@@ -1,0 +1,27 @@
+.popup__wrapper {
+    display: none;
+    background: rgb(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup__wrapper--display-block{
+    display: block;
+}
+
+.popup {
+    font-family: arial;
+    color: rgb(16, 50, 129);
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    border: 5px solid rgb(16, 50, 129);
+    border-radius: 10px;
+}
