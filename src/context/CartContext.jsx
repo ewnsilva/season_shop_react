@@ -1,4 +1,3 @@
-import React from "react";
 import { createContext, useState } from "react";
 
 const CartContext = createContext()
@@ -24,8 +23,17 @@ const CartProvider = ({ children }) => {
         })
     }
 
+    const updateValue = (product) => {
+        let allPrices = cartProducts.filter(product.price)
+            let totalMoney = 0
+            const prices = allPrices
+            for(let i = 0; i< prices.lenght; i++)(
+            totalMoney += Number(prices[i].price))
+            return totalMoney
+        }
+
     return (
-        <CartContext.Provider value={{ cartProducts, addToCart, removeProduct }}>
+        <CartContext.Provider value={{ cartProducts, addToCart, removeProduct, updateValue }}>
             {children}
         </CartContext.Provider>
     )
