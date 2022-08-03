@@ -3,12 +3,15 @@ import "./style.css"
 
 import Remove from "../RemoveButton"
 
-const PriceContainer = (props) => (
+const PriceContainer = ({price, remove}) => {
+    
+    return(    
     <div className="priceContainer">
         <h4>Preço</h4>
-        <p>RS 1,99</p>
-        <Remove name="Remover" />
+        <p>R$ {price}</p>
+        <Remove name="Remover" handleClick={remove}/>
     </div>
-)
+    )
+}
 
 export default PriceContainer

@@ -1,8 +1,13 @@
 import React from "react";
 import "./style.css"
 
-const Purchase = (props) => (
-    <button className="buyConfirm">Confirmar Compra</button>
-)
+
+
+const Purchase = ({name, handleClick}) => {
+
+    return(
+    <button className="buyConfirm" onClick={handleClick}>{name}</button>
+    )
+}
 
 export default Purchase

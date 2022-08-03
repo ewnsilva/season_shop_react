@@ -7,7 +7,7 @@ const TotalValueContainer = (props) => (
     <div className="totalValueContainer">
         <h3>Valor Total</h3>
         <h4>R$  1,99</h4>
-        <Purchase />
+        <Purchase name="Confirmar Compra"/>
     </div>
 )
 export default TotalValueContainer
