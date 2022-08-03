@@ -1,16 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
+
 import Index from './pages/index/';
 import Cart from './pages/cart/'
-import {CartProvider} from './context/CartContext'
+import { CartProvider } from './context/CartContext'
+
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <CartProvider>
-      <Index /> {/* Para ver a página Cart, colocar index em comentario e retirar Cart do comentario.*/}
-      {/* <Cart /> */} {/* Comentado enquanto não foi configurado o mecanismo de rotas.*/}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="cart" element={<Cart />} />
+        </Routes>
+      </Router>
     </CartProvider>
   </React.StrictMode>
 );
