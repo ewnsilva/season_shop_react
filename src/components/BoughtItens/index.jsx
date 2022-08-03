@@ -6,12 +6,12 @@ import Quantity from "../Quantity"
 import Delivery from "../Delivery"
 import Price from "../PriceContainer"
 
-const BoughtItens = (props) => (
+const BoughtItens = ({infoName, infoPrice, infoRemove}) => (
     <div className="boughtItens">
-        <Description />
+        <Description name={infoName}/>
         <Quantity />
         <Delivery />
-        <Price />
+        <Price price={infoPrice} remove={infoRemove}/>
     </div>
 )
 
