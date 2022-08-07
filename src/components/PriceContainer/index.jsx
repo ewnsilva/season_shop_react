@@ -1,17 +1,17 @@
 import React from "react";
+import { formatPrice } from "../../utils/format";
 import "./style.css"
 
-import Remove from "../RemoveButton"
+const Price= ({price}) => {
 
-const PriceContainer = ({price, remove}) => {
+    const priceFormatted = formatPrice(price)
     
     return(    
     <div className="priceContainer">
         <h4>Preço</h4>
-        <p>R$ {price}</p>
-        <Remove name="Remover" handleClick={remove}/>
+        <p>{priceFormatted}</p>
     </div>
     )
 }
 
-export default PriceContainer
+export default Price
