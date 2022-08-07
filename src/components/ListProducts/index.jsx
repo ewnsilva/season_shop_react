@@ -5,8 +5,6 @@ import Loading from "../Loading"
 import api from "../../services/api"
 import "./style.css"
 
-
-
 const ListProducts = () => {
 
     const [products, setProducts] = useState([])
