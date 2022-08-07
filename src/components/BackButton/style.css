@@ -1,6 +1,8 @@
 .backButton{
+    font-size: 15px;
+    font-weight: bold;
     margin-left: 20%;
-    width: 100px;
+    width: 120px;
     margin-top: auto;
     margin-bottom: auto;
     color: white;
@@ -12,5 +14,6 @@
 
 .backButton:hover{
     border: 3px solid white;
+    color: white;
     cursor: pointer;
 }
